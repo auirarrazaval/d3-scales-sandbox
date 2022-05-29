@@ -113,7 +113,7 @@ const join = (data) => {
     xLabel.text(xName)
     yLabel.text(yName)
 
-    title.text(`${xName} (${xScaleType}) VS ${yName} (${yScaleType})`)
+    title.text(`${yName} (${yScaleType}) vs ${xName} (${xScaleType})`)
 
     let plotData = data.map((d) => {
         return {
