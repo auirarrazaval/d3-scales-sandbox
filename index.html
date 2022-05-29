@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1>
+            A D3.js scale type playground
+        </h1>
+        <h3>
+            The goal for this tool is to show how different D3.js scales look and help represent different data,
+            as well as to show how the transition between them can be achieved in a smooth and entertaining way.
+        </h3>
+        <p>
+            To build this tool, dummy data was generated using different distributions. The goal is for the user to be able
+            to compare dynamically each data entry and figure out both what type of distribution each variable follows,
+            as well as find relationships or correlations between the different variables that are presented
+        </p>
+    </div>
+    <div class="main-container">
+        <div class="svg-container">
+            <svg id="bubblechart">
+            </svg>
+        </div>
+        <div class="selectors">
+            <div class="button-container">
+                <h3>X-Axis</h3>
+                <h4>Select data variable:</h4>
+                <select id="x-axis-data">
+                </select>
+                <h4>Seleccionar D3 scale to use:</h4>
+                <select id="x-axis-scale">
+                </select>
+            </div>
+            <div class="button-container">
+                <h3>Y-Axis</h3>
+                <h4>Select data variable:</h4>
+                <select id="y-axis-data">
+                </select>
+                <h4>Seleccionar D3 scale to use:</h4>
+                <select id="y-axis-scale">
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="./src/index.js" type="module"></script>
+</body>
+</html>

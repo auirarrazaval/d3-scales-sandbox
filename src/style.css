@@ -1,0 +1,42 @@
+body {
+    font-family: 'roboto', sans-serif;
+    width: 90%;
+    margin: auto;
+    background-color:ivory;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3, p {
+    color: rgb(75, 75, 75);
+}
+
+div.main-container {
+    display: flex;
+}
+
+.svg-container {
+    flex: 9;
+    margin: auto;
+}
+
+.selectors {
+    flex: 3;
+    margin: auto;
+}
+
+select {
+    width: 100%;
+}
+
+.button-container > h4 {
+    color: gray;
+    margin-bottom: 5px;
+}
+
+tspan {
+    font-size: 14px;
+}
